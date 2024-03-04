@@ -253,3 +253,19 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media (max-width: 500px) {
+  .main img {
+    width: 28rem;
+    height: 29rem;
+  }
+  .icon {
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    margin: 0 0.5rem;
+  }
+  .about .aboutImg img {
+    width: 31rem;
+    height: 36rem;
+  }
+}
