@@ -268,5 +268,6 @@
   .about .aboutImg img {
     width: 31rem;
     height: 36rem;
+    margin-top: -4rem;
   }
 }
