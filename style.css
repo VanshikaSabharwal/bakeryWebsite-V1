@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+/* Google  FONTS */
+/* .cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+  } 
+  
+  .poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+*/
+
+/* home  */
+.home {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+/* nav  */
+.nav .logo img {
+  width: 100px;
+  height: 100px;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: gold;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  position: fixed;
+}
+.nav h1 {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 2.5rem;
+}
+.nav .navigation ul {
+  list-style: none;
+  color: gold;
+  display: flex;
+  gap: 2rem;
+}
+.nav .navigation ul li {
+  display: flex;
+  align-items: center;
+}
+.nav .navigation ul li a {
+  color: gold;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.main img {
+  width: 25rem;
+  height: 30rem;
+}
+.main .headLine {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 7rem;
+  margin-top: 6rem;
+  max-width: max-content;
+}
+.main .headLine h2 {
+  font-family: "Cookie", cursive;
+  color: white;
+  font-size: 6rem;
+  text-align: center;
+  margin-bottom: 1.8rem;
+}
+.main .headLine a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background: gold;
+  padding: 8px 21px;
+  margin: 0 auto;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.homeFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+}
+.homeFooter .address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.icon {
+  width: 2rem;
+  height: 2rem;
+  color: white;
+  margin: 0 1rem;
+}
+.bi-geo-alt-fill {
+  color: gold;
+}
+
+.about {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: black;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about .aboutImg img {
+  width: 31rem;
+  height: 44rem;
+}
+.about .aboutDetail {
+  color: white;
+  width: 45rem;
+}
+.about .aboutDetail h1 {
+  font-size: 3.5rem;
+}
+
+.bakeryItemContainer {
+  width: 100%;
+  height: 100vh;
+}
+.bakeryItemContainer h1 {
+  text-align: center;
+  padding: 2rem;
+}
+.bakeryItemContainer .bakeryItemList {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+}
+.bakeryItemContainer .bakeryItemList .bakeryItem {
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 20px;
+}
+.bakeryItemContainer .bakeryItemList .bakeryItem h2 {
+  font-size: large;
+  font-weight: 500;
+}
+.bakeryItemContainer .bakeryItemList .bakeryItem .price {
+  letter-spacing: 5px;
+  font-size: small;
+  display: inline-grid;
+  grid-template-columns: 4fr 12fr;
+}
+.bakeryItemContainer .bakeryItemList .bakeryItem img {
+  width: 200px;
+  height: 250px;
+}
+.bakeryItemContainer .bakeryItemList .bakeryItem button {
+  border: none;
+}
+.bakeryItemContainer .bakeryItemList .bakeryItem .bi-plus-square-fill {
+  width: 25px;
+  height: 25px;
+}
+@media (max-width: 700px) {
+  .main img {
+    width: 28rem;
+    height: 32rem;
+  }
+  .main .headLine {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-top: 6rem;
+    max-width: max-content;
+  }
+  .main {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 675px) {
+  html {
+    margin-right: -12rem;
+  }
+  .homeFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+    width: 127%;
+  }
+  .about {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: black;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .about .aboutDetail {
+    color: white;
+    width: 32rem;
+    position: relative;
+    top: 9rem;
+  }
+}
+@media (max-width: 1350px) and (min-width: 1059px) {
+  .bakeryItemContainer .bakeryItemList {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media (max-width: 1059px) and (min-width: 840px) {
+  .bakeryItemContainer .bakeryItemList {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 840px) {
+  .bakeryItemContainer .bakeryItemList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
