@@ -255,9 +255,19 @@
 }
 @media (max-width: 500px) {
   .main img {
-    width: 26rem;
-    height: 27rem;
-    padding-bottom: 6rem;
+    width: 22rem;
+    height: 29rem;
+    padding-bottom: 10rem;
+    margin-top: -3rem;
+  }
+  .socialLinks {
+    text-align: right;
+    display: flex;
+    position: relative;
+    right: -44px;
+  }
+  .homeFooter {
+    bottom: 1rem;
   }
   .icon {
     width: 2rem;
