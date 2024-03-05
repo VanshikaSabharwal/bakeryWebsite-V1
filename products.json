@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Chocolate Cake",
+    "img": "img/cake2.png",
+    "price": 500
+  },
+  {
+    "id": 2,
+    "name": " Bread",
+    "img": "img/bread.png",
+    "price": 150
+  },
+  {
+    "id": 3,
+    "name": "Cookies",
+    "img": "img/cookies.png",
+    "price": 200
+  },
+  {
+    "id": 4,
+    "name": "Biscuits",
+    "img": "img/biscuits.png",
+    "price": 250
+  },
+  {
+    "id": 5,
+    "name": "IceCream",
+    "img": "img/icecream.png",
+    "price": 120
+  },
+  {
+    "id": 6,
+    "name": "Milkshake",
+    "img": "img/milkshake2.png",
+    "price": 180
+  },
+  {
+    "id": 7,
+    "name": "Milkshake",
+    "img": "img/milkshake.png",
+    "price": 100
+  },
+  {
+    "id": 8,
+    "name": "Assorted Cookies",
+    "img": "img/coke.png",
+    "price": 120
+  },
+  {
+    "id": 9,
+    "name": "Fruit Tart",
+    "img": "img/coke.png",
+    "price": 300
+  },
+  {
+    "id": 10,
+    "name": "Hazelnut Coffee",
+    "img": "img/coke.png",
+    "price": 80
+  },
+  {
+    "id": 11,
+    "name": "Blueberry Muffin",
+    "img": "img/coke.png",
+    "price": 100
+  },
+  {
+    "id": 12,
+    "name": "Sourdough Bread",
+    "img": "img/cookies.png",
+    "price": 80
+  },
+  {
+    "id": 13,
+    "name": "Strawberry Cheesecake",
+    "img": "img/cookies.png",
+    "price": 550
+  },
+  {
+    "id": 14,
+    "name": "Iced Caramel Latte",
+    "img": "img/cookies.png",
+    "price": 150
+  },
+  {
+    "id": 15,
+    "name": "Almond Croissant",
+    "img": "img/cookies.png",
+    "price": 120
+  },
+  {
+    "id": 16,
+    "name": "Oatmeal Raisin Cookies",
+    "img": "img/cookies.png",
+    "price": 90
+  },
+  {
+    "id": 17,
+    "name": "Cherry Danish",
+    "img": "img/cookies.png",
+    "price": 130
+  },
+  {
+    "id": 18,
+    "name": "Mango Smoothie",
+    "img": "img/cookies.png",
+    "price": 180
+  },
+  {
+    "id": 19,
+    "name": "Cheese Breadsticks",
+    "img": "img/cookies.png",
+    "price": 110
+  },
+  {
+    "id": 20,
+    "name": "Pumpkin Pie",
+    "img": "img/cookies.png",
+    "price": 350
+  }
+]
