@@ -77,7 +77,7 @@
   top: 0;
   right: 0;
   height: 100vh;
-  background-color: rgba(225, 225, 225, 0.2);
+  background-color: rgb(235 213 141 / 20%);
   z-index: 999;
   display: none;
   flex-direction: column;
@@ -391,8 +391,8 @@ body.showcart .cartTab {
   .main img {
     width: 22rem;
     height: 26rem;
-    padding-bottom: 4rem;
-    margin-top: 2rem;
+    padding-bottom: 6rem;
+    margin-top: -3rem;
   }
   .main .headLine h2 {
     font-size: 5rem;
@@ -401,10 +401,10 @@ body.showcart .cartTab {
     text-align: right;
     display: flex;
     position: relative;
-    right: -44px;
+    right: -111px;
   }
   .homeFooter {
-    bottom: 1rem;
+    bottom: 0.3rem;
   }
   .icon {
     width: 2rem;
@@ -453,6 +453,14 @@ body.showcart .cartTab {
     grid-gap: 5px;
     height: 10rem;
     margin: 2px 10px;
+  }
+  .image {
+    height: 170px;
+    width: 90px;
+  }
+  .image img {
+    height: 100%;
+    width: 100%;
   }
 }
 
