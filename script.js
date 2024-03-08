@@ -22,7 +22,7 @@ cartIcon.addEventListener("click", () => {
   cartTab.transition = " 1s ";
 });
 closeCart.addEventListener("click", () => {
-  cartTab.style.inset = "0 -400px 0 auto";
+  cartTab.style.inset = "0 100% 0 auto";
   cartTab.transition = " 1s";
 });
 

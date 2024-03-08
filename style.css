@@ -124,13 +124,13 @@
 }
 /* cartTab */
 .cartTab {
-  width: 400px;
+  width: 100%;
   position: fixed;
   background-color: #353432;
   display: grid;
   grid-template-rows: 70px 1fr 70px;
   transition: transform 0.5s;
-  inset: 0 -400px 0 auto;
+  inset: 0 100% 0 auto;
   height: 100vh;
   z-index: 999;
 }
@@ -168,7 +168,8 @@
 .cartTab .listCart span {
   display: inline-block;
   cursor: pointer;
-  width: 25px;
+  width: 30px;
+  height: 30px;
   background-color: #eee;
   color: #555;
   border-radius: 50%;
