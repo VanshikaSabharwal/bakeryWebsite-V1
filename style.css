@@ -71,6 +71,15 @@
   font-weight: 500;
 }
 
+.nav .navigation ul li a:hover {
+  position: relative;
+  bottom: 0.3rem;
+  background: goldenrod;
+  color: white;
+  border-radius: 12px;
+  padding: 2px 5px;
+}
+
 .side-navigation_menu {
   position: fixed;
   color: gold;
@@ -148,6 +157,7 @@
   border: none;
   font-family: "Arial", sans-serif;
   outline: none;
+  font-size: 1.4rem;
   cursor: pointer;
   font-weight: 600;
   height: 3rem;
