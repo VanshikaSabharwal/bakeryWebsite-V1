@@ -173,6 +173,7 @@
   background-color: #eee;
   color: #555;
   border-radius: 50%;
+  font-size: 1.4rem;
 }
 .listCart .quantity span:nth-child(2) {
   color: #eee;
