@@ -155,7 +155,7 @@
 }
 .cartTab .listCart .item {
   display: grid;
-  grid-template-columns: 70px 150px 50px 1fr;
+  grid-template-columns: 70px 150px 56px 1fr;
   text-align: center;
   align-items: center;
   gap: 10px;
@@ -299,13 +299,14 @@ body.showcart .cartTab {
   letter-spacing: 5px;
   font-size: small;
   display: inline-grid;
-  grid-template-columns: 4fr 12fr;
+  grid-template-columns: 4fr 10fr;
 }
 .bakeryItemContainer .bakeryItemList .bakeryItem img {
   width: 200px;
   height: 250px;
 }
 .bakeryItemContainer .bakeryItemList .bakeryItem button {
+  cursor: pointer;
   border: none;
 }
 .bakeryItemContainer .bakeryItemList .bakeryItem .bi-plus-square-fill {
