@@ -314,15 +314,11 @@ body.showcart .cartTab {
   height: 25px;
 }
 @media (max-width: 700px) {
-  main img {
-    width: 24rem;
-    height: 29rem;
-    position: relative;
-    bottom: 5rem;
-  }
   .main img {
-    width: 28rem;
-    height: 32rem;
+    width: 19rem;
+    height: 21rem;
+    margin-top: -3rem;
+    margin-bottom: 7rem;
   }
   .main .headLine {
     display: flex;
