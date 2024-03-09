@@ -133,13 +133,13 @@
 }
 /* cartTab */
 .cartTab {
-  width: 100%;
+  width: 500px;
   position: fixed;
   background-color: #353432;
   display: grid;
   grid-template-rows: 70px 1fr 70px;
   transition: transform 0.5s;
-  inset: 0 100% 0 auto;
+  inset: 0 -500px 0 auto;
   height: 100vh;
   z-index: 999;
 }
@@ -407,6 +407,17 @@ body.showcart .cartTab {
     height: 26rem;
     padding-bottom: 6rem;
     margin-top: -3rem;
+  }
+  .cartTab {
+    width: 100%;
+    position: fixed;
+    background-color: #353432;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition: transform 0.5s;
+    inset: 0 100% 0 auto;
+    height: 100vh;
+    z-index: 999;
   }
   .main .headLine h2 {
     font-size: 5rem;
