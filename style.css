@@ -310,13 +310,13 @@ body.showcart .cartTab {
   font-weight: 500;
 }
 .bakeryItemContainer .bakeryItemList .bakeryItem .price {
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   font-size: small;
   display: inline-grid;
   grid-template-columns: 4fr 10fr;
 }
 .bakeryItemContainer .bakeryItemList .bakeryItem img {
-  width: 200px;
+  width: 220px;
   height: 250px;
 }
 .bakeryItemContainer .bakeryItemList .bakeryItem button {

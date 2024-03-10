@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Chocolate Cake",
-    "img": "img/cake2.png",
+    "img": "img/cake6.png",
     "price": 500
   },
   {
@@ -13,14 +13,14 @@
   },
   {
     "id": 3,
-    "name": "Cookies",
-    "img": "img/cookies.png",
+    "name": "Pie",
+    "img": "img/pie3.png",
     "price": 200
   },
   {
     "id": 4,
-    "name": "Biscuits",
-    "img": "img/biscuits.png",
+    "name": "Pastry",
+    "img": "img/cake7.png",
     "price": 250
   },
   {
@@ -43,20 +43,20 @@
   },
   {
     "id": 8,
-    "name": "Assorted Cookies",
-    "img": "img/pastries.png",
+    "name": "Pastry",
+    "img": "img/pastry.png",
     "price": 120
   },
   {
     "id": 9,
-    "name": "Fruit Tart",
+    "name": "Almond Cookies",
     "img": "img/cookies2.png",
     "price": 300
   },
   {
     "id": 10,
-    "name": "Hazelnut Coffee",
-    "img": "img/coke.png",
+    "name": "CocaCola",
+    "img": "img/cocacola1.png",
     "price": 80
   },
   {
@@ -68,7 +68,7 @@
   {
     "id": 12,
     "name": "Sourdough Bread",
-    "img": "img/cupcake.png",
+    "img": "img/bread2.png",
     "price": 80
   },
   {
@@ -92,7 +92,7 @@
   {
     "id": 16,
     "name": "Oatmeal Raisin Cookies",
-    "img": "img/tart2.png",
+    "img": "img/pie2.png",
     "price": 90
   },
   {
