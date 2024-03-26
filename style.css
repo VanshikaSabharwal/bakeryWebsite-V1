@@ -92,7 +92,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  width: 250px;
+  width: 100%;
   gap: 2rem;
   backdrop-filter: blur(7px);
 }
@@ -333,8 +333,8 @@ body.showcart .cartTab {
 }
 @media (max-width: 700px) {
   .main img {
-    width: 19rem;
-    height: 21rem;
+    width: 25rem;
+    height: 26rem;
     margin-top: -3rem;
     margin-bottom: 7rem;
   }
@@ -365,13 +365,13 @@ body.showcart .cartTab {
     justify-content: space-around;
     color: white;
     position: absolute;
-    bottom: 2rem;
+    bottom: -11rem;
     left: 0;
     right: 0;
     width: 127%;
   }
   .about {
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -384,6 +384,9 @@ body.showcart .cartTab {
     width: 32rem;
     position: relative;
     top: 9rem;
+  }
+  .home {
+    height: 130vh;
   }
 }
 @media (max-width: 1350px) and (min-width: 1059px) {
@@ -403,8 +406,8 @@ body.showcart .cartTab {
 }
 @media (max-width: 500px) {
   .main img {
-    width: 22rem;
-    height: 26rem;
+    width: 30rem;
+    height: 37rem;
     padding-bottom: 6rem;
     margin-top: -3rem;
   }
@@ -429,7 +432,7 @@ body.showcart .cartTab {
     right: -111px;
   }
   .homeFooter {
-    bottom: 0.3rem;
+    bottom: -19.7rem;
   }
   .icon {
     width: 2rem;
@@ -486,5 +489,8 @@ body.showcart .cartTab {
   .image img {
     height: 100%;
     width: 100%;
+  }
+  .home {
+    height: 150vh;
   }
 }
